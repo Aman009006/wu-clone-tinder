@@ -7,10 +7,10 @@ function Main() {
     <div className="main">
      <div className="main__content">
         <div className="navbar__content">
+          <Link to='/swips'>mainSwipe</Link>
+          <Link to='/likeme'>likeme</Link>
           <Link to='/chat'>chat</Link>
-            <div className="navbar__item">main</div>
-            <div className="navbar__item">chat</div>
-            <div className="navbar__item">who</div>
+          <Link to='/profile'>profile</Link>
         </div>
      </div>
     </div>
