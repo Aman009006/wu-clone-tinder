@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import MainNavBar from "../../components/mainNavBar/MainNavBar";
 import './style.scss'
 
@@ -10,7 +9,7 @@ function LikePage(){
        <div className="">
             <div className="">
                 люди которые лайкнули менея
-                <MainNavBar/>
+                <MainNavBar active={"likeme"}/>
             </div>
         </div>
         </>
