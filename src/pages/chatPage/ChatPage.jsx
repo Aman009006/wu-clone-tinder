@@ -11,7 +11,7 @@ function ChatPage(){
                 hello
 
 
-                <MainNavBar/>
+                <MainNavBar active={'chat'}/>
 
             </div>
         </div>
